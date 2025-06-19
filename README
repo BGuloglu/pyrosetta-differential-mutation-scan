@@ -1,0 +1,17 @@
+InstaDeep technical task repo - Bora Guloglu
+
+The "code" directory contains all necessary modules. The proof-of-concept analysis is
+performed in the "proof_of_concept.ipynb" notebook, also in the same directory.
+
+Output from the notebook is saved in the 'data', 'mutants_AB', and 'mutants_AC' directories.
+The 'figures' directory contains images generated using pymol for the notebook. The 
+structures could have been visualised in the notebook using nglview, but this would require re-running it.
+
+The 'mutants_AB', and 'mutants_AC' directories normally have PDB files for all the generated mutants within them.
+As this makes the directory too large, I have removed most but kept "mutants_AB/C_144" PDB files. 
+This is the mutation that is examined in depth at the end of the notebook. 
+Should the remaining files be required, I am more than happy to upload these as well.
+
+The "Mutate.py" module relies on PyRosetta and therefore requires a license to run.
+
+The "environment.yml" iis provided to create the necessary conda environment for the project.
